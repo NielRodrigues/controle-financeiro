@@ -1,0 +1,37 @@
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 10%;
+  background-color: #1c2534;
+  color: #f3f3f3;
+  padding-top: 88px;
+  padding-bottom: 88px;
+}
+h1{
+  margin-left: 32px;
+  color: #f3f3f3;
+}
+p{
+  margin-left: 32px;
+  color: #f3f3f3;
+}
+div.name{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+div.name button{
+  margin-left: 16px;
+  width: 20px;
+  height: 20px;
+  border: none;
+  cursor: pointer;
+  color: #f3f3f3;
+  background-color: transparent;
+  outline: none;
+}
+div.name button:hover{
+  opacity: 0.5;
+}

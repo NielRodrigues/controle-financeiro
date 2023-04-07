@@ -1,0 +1,59 @@
+section.info-money{
+  height: 150px;
+  width: 90%;
+  margin-top: -75px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+section.info-money div.info-layout{
+  height: 150px;
+  width: 30%;
+  margin: 8px;
+  margin-top: 0;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 0 15px #00000050;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section.info-money div.info-layout div.text{
+  width: 64%;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+section.info-money div.info-layout div.text h1{
+  font-size: 24px;
+  font-weight: 400;
+  color: #1f1e21;
+  margin-left: 0px;
+}
+section.info-money div.info-layout h2.money{
+  font-size: 32px;
+  font-weight: 700;
+  color: #1f1e21;
+  margin-top: 32px;
+}
+
+@media (max-width: 750px){
+  section.info-money div.info-layout div.text h1{font-size: 16px;}
+  section.info-money div.info-layout h2.money{font-size: 24px;}
+}
+@media (max-width: 570px){
+  section.info-money div.info-layout div.text h1{font-size: 16px;}
+  section.info-money div.info-layout h2.money{font-size: 20px;}
+}
+@media (max-width: 500px){
+  section.info-money div.info-layout div.text h1{font-size: 12px;}
+  section.info-money div.info-layout h2.money{font-size: 16px;}
+}
+@media (max-width: 350px){
+  section.info-money div.info-layout div.text h1{font-size: 10px;}
+  section.info-money div.info-layout h2.money{font-size: 12px;}
+}

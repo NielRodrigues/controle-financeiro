@@ -1,0 +1,82 @@
+form{
+  margin-top: 16px;
+  height: 64px;
+  width: 90%;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 0 15px #00000050;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+form div{
+  height: 100%;
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+form div label{
+  color: #1f1e21;
+  font-size: 16px;
+  font-weight: 600;
+  width: 90%;
+}
+form div input{
+  width: 90%;
+  padding-left: 8px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  border: 1px solid #1f1e211e;
+  height: 24px;
+
+}
+form div input:focus{
+  border: 1px solid #31af99;
+
+}
+form div.expense-or-earning{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+form div.expense-or-earning input{
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+form div.expense-or-earning label{
+  font-size: 20px;
+  margin: 0;
+  line-height: 0;
+  padding: 0;
+  height: auto;
+}
+form div button{
+  height: 80%;
+  width: 40%;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  background-color: #31af99;
+  color: #f3f3f3;
+  cursor: pointer;
+}
+form div button:hover{
+  background-color: #108673;
+}
+@media (max-width: 870px){
+  form {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  form div{width: 90%; margin-top: 16px;}
+  form div input{height: 40px;}
+  form div.expense-or-earning{justify-content: space-around; display: flex; flex-direction: row; width: 56%;}
+  form div.expense-or-earning label{background-color: red; font-size: 16px;}
+  form div button{margin-bottom: 16px; width: 90%; height: 32px;}
+}
