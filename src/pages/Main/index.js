@@ -30,7 +30,7 @@ const Main = () => {
     setFinance([
       {
         id: new Date().getTime(),
-        date: `${String(date.getDate()+1).length === 1 ? '0'+Number(date.getDate()) : Number(date.getDate()+1)}/${String(date.getMonth()+1).length === 1 ? '0'+Number(date.getMonth()+1) : Number(date.getMonth()+1)}/${date.getFullYear()}`,
+        date: `${String(date.getDate()).length === 1 ? '0'+Number(date.getDate()) : Number(date.getDate()+1)}/${String(date.getMonth()+1).length === 1 ? '0'+Number(date.getMonth()+1) : Number(date.getMonth()+1)}/${date.getFullYear()}`,
         desc: desc,
         value: Number(value),
         earn: type
@@ -39,7 +39,7 @@ const Main = () => {
     ])
     finances = [{
       id: new Date().getTime(),
-      date: `${String(date.getDate()+1).length === 1 ? '0'+Number(date.getDate()) : Number(date.getDate()+1)}/${String(date.getMonth()+1).length === 1 ? '0'+Number(date.getMonth()+1) : Number(date.getMonth()+1)}/${date.getFullYear()}`,
+      date: `${String(date.getDate()).length === 1 ? '0'+Number(date.getDate()) : Number(date.getDate()+1)}/${String(date.getMonth()+1).length === 1 ? '0'+Number(date.getMonth()+1) : Number(date.getMonth()+1)}/${date.getFullYear()}`,
       desc: desc,
       value: Number(value),
       earn: type
